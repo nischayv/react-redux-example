@@ -1,0 +1,25 @@
+{
+  "name": "react-redux-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+  },
+  "author": "Nischay Venkatram <nischay.v@gmail.com> (www.nischayv.com)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "3.10.0",
+    "webpack-dev-server": "2.11.1"
+  }
+}
